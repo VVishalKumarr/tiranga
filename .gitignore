@@ -1,0 +1,11 @@
+# Alumni content is kept out of the repo
+*-alumini/
+website/public/images/alumni/
+website/src/pages/Alumni.tsx
+
+# Build output, local env and caches
+node_modules/
+dist/
+.vercel/
+.env*
+*.tsbuildinfo

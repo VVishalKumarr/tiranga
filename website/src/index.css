@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: #1c0032;
+  --foreground: #fcebae;
+  --card: #290b42;
+  --card-foreground: #fcebae;
+  --primary: #eac25a;
+  --primary-foreground: #1c0032;
+  --secondary: #33164d;
+  --secondary-foreground: #fcebae;
+  --muted: #2c1543;
+  --muted-foreground: #dacea2;
+  --border: #eac25a4d;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: "Times New Roman", "The Seasons", Times, serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.01em;
+    font-family: "Abril Fatface", Georgia, serif;
+  }
+}
