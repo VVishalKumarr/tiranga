@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { InstagramIcon, YoutubeIcon } from "../components/BrandIcons";
+import { InstagramIcon } from "../components/BrandIcons";
 import { usePageTitle } from "../usePageTitle";
 
 const highlights = [
@@ -23,7 +23,7 @@ const explore = [
     to: "/alumni",
     eyebrow: "Our People",
     title: "Alumni",
-    text: "Meet the alumni carrying the spirit of Sudharshan to campuses across India and abroad.",
+    text: "Meet the alumni carrying the spirit of Tiranga to campuses across India and abroad.",
   },
   {
     to: "/the-tiranga",
@@ -69,16 +69,7 @@ export default function Home() {
           </div>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="https://www.youtube.com/@TheSudharshanSummit"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={socialClass}
-            >
-              <YoutubeIcon className="h-5 w-5" />
-              YouTube
-            </a>
-            <a
-              href="https://www.instagram.com/thesudharshansummit/"
+              href="https://www.instagram.com/tirangaorg/"
               target="_blank"
               rel="noopener noreferrer"
               className={socialClass}
