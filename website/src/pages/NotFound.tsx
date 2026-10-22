@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 import { usePageTitle } from "../usePageTitle";
 
 export default function NotFound() {
-  usePageTitle("Page Not Found — The Sudharshan Summit");
+  usePageTitle("Page Not Found — Tiranga");
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-24 text-center">

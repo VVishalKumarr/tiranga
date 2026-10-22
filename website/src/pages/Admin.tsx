@@ -34,7 +34,7 @@ function downloadCsv(responses: StoredResponse[]) {
 }
 
 export default function Admin() {
-  usePageTitle("Admin Dashboard — The Sudharshan Summit");
+  usePageTitle("Admin Dashboard — Tiranga");
   const [auth, setAuth] = useState<Auth>("checking");
 
   useEffect(() => {

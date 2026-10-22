@@ -43,7 +43,7 @@ const socialClass =
   "group inline-flex items-center justify-center gap-2.5 rounded-full border border-primary px-6 py-2.5 text-sm font-medium tracking-wide text-primary transition hover:bg-primary/10";
 
 export default function Home() {
-  usePageTitle("The Sudharshan Summit — Preserving Diplomacy | 11–12 July 2026");
+  usePageTitle("Tiranga — Preserving Diplomacy | 11–12 July 2026");
 
   return (
     <div>
@@ -52,11 +52,11 @@ export default function Home() {
         <div className="relative mx-auto max-w-5xl px-6 pt-20 pb-28 text-center">
           <img
             src="/images/tiranga-logo.png"
-            alt="The Sudharshan Summit emblem"
+            alt="Tiranga logo"
             className="mx-auto h-72 w-72 object-contain drop-shadow-[0_0_45px_oklch(0.77_0.16_60_/_35%)]"
           />
           <h1 className="mt-2 font-serif text-5xl leading-tight text-primary md:text-7xl">
-            The Sudharshan <span className="text-green">Summit</span>
+            Tir<span className="text-foreground">an</span><span className="text-green">ga</span>
           </h1>
           <p className="mt-4 text-3xl italic text-muted-foreground md:text-4xl">Preserving Diplomacy</p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">

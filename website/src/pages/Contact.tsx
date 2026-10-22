@@ -12,7 +12,7 @@ const linkCard =
   "flex items-center gap-3 rounded-2xl border border-primary/25 bg-card/60 p-6 transition hover:border-primary";
 
 export default function Contact() {
-  usePageTitle("Contact — The Sudharshan Summit");
+  usePageTitle("Contact — Tiranga");
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">

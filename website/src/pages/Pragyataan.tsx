@@ -18,7 +18,7 @@ const contacts = [
 ];
 
 export default function Pragyataan() {
-  usePageTitle("Pragyataan — The Sudharshan Summit");
+  usePageTitle("Pragyataan — Tiranga");
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">

@@ -1,7 +1,7 @@
 import { usePageTitle } from "../usePageTitle";
 
 export default function FoundersMessage() {
-  usePageTitle("Founder's Message — The Sudharshan Summit");
+  usePageTitle("Founder's Message — Tiranga");
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">

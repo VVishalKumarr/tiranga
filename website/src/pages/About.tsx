@@ -2,7 +2,7 @@ import PageHeader from "../components/PageHeader";
 import { usePageTitle } from "../usePageTitle";
 
 export default function About() {
-  usePageTitle("About — The Sudharshan Summit");
+  usePageTitle("About — Tiranga");
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">

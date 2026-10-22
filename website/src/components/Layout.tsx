@@ -36,11 +36,11 @@ export default function Layout() {
           <Link to="/" className="flex shrink-0 items-center gap-2.5">
             <img
               src="/images/tiranga-logo.png"
-              alt="The Sudharshan Summit emblem"
+              alt="Tiranga logo"
               className="h-16 w-16 object-contain"
             />
             <div className="leading-tight">
-              <div className="font-serif text-lg text-primary">The Sudharshan Summit</div>
+              <div className="font-serif text-lg text-primary">Tiranga</div>
               <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                 Preserving Diplomacy
               </div>
@@ -89,7 +89,7 @@ export default function Layout() {
         <div className="tricolour-stripe" />
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-3">
           <div>
-            <div className="font-serif text-xl text-primary">The Sudharshan Summit</div>
+            <div className="font-serif text-xl text-primary">Tiranga</div>
             <p className="mt-2 text-sm text-muted-foreground">
               Hansraj College, University of Delhi. 11th &amp; 12th of July 2026.
             </p>
@@ -128,7 +128,7 @@ export default function Layout() {
           </div>
         </div>
         <div className="border-t border-primary/15 py-5 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} The Sudharshan Summit. All rights reserved.
+          © {new Date().getFullYear()} Tiranga. All rights reserved.
         </div>
       </footer>
     </div>

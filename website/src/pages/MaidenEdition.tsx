@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 import { usePageTitle } from "../usePageTitle";
 
 export default function MaidenEdition() {
-  usePageTitle("Maiden Edition — The Sudharshan Summit");
+  usePageTitle("Maiden Edition — Tiranga");
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
