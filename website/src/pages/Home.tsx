@@ -61,14 +61,8 @@ export default function Home() {
           <p className="mt-4 text-3xl italic text-muted-foreground md:text-4xl">Preserving Diplomacy</p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Link
-              to="/maiden-edition"
-              className="rounded-full bg-primary px-9 py-4 text-base font-medium text-primary-foreground transition hover:opacity-90 md:text-lg"
-            >
-              Our Maiden Edition
-            </Link>
-            <Link
               to="/about"
-              className="rounded-full border border-primary/50 px-9 py-4 text-base font-medium text-primary transition hover:bg-primary/10 md:text-lg"
+              className="rounded-full bg-primary px-9 py-4 text-base font-medium text-primary-foreground transition hover:opacity-90 md:text-lg"
             >
               About Us
             </Link>

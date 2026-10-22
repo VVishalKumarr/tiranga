@@ -6,10 +6,6 @@ import { InstagramIcon } from "./BrandIcons";
 export const NAV_LINKS = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
-  { to: "/founders-message", label: "Founder's Message" },
-  { to: "/pragyataan", label: "Pragyataan" },
-  { to: "/maiden-edition", label: "Maiden Edition" },
-  { to: "/team-sudharshan", label: "Team Sudharshan" },
   { to: "/alumni", label: "Alumni" },
   { to: "/the-tiranga", label: "The Tiranga" },
   { to: "/career-counselling", label: "Career Counselling" },
