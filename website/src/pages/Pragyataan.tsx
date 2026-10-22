@@ -26,7 +26,7 @@ export default function Pragyataan() {
         <img
           src="/images/pragyataan-logo.png"
           alt="Pragyataan emblem"
-          className="h-44 w-44 object-contain drop-shadow-[0_0_40px_oklch(0.83_0.13_88_/_30%)]"
+          className="h-44 w-44 object-contain drop-shadow-[0_0_40px_oklch(0.77_0.16_60_/_30%)]"
         />
         <p className="text-xs uppercase tracking-[0.4em] text-primary">Initiative</p>
         <h1 className="mt-2 font-serif text-5xl text-foreground">Pragyataan</h1>

@@ -48,15 +48,15 @@ export default function Home() {
   return (
     <div>
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_oklch(0.26_0.12_304.8)_0%,_transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgb(255_153_51_/_22%)_0%,_transparent_55%),radial-gradient(ellipse_at_bottom,_rgb(76_185_68_/_18%)_0%,_transparent_55%)]" />
         <div className="relative mx-auto max-w-5xl px-6 pt-20 pb-28 text-center">
           <img
-            src="/images/sudharshan-logo.png"
+            src="/images/tiranga-logo.png"
             alt="The Sudharshan Summit emblem"
-            className="mx-auto h-72 w-72 object-contain drop-shadow-[0_0_45px_oklch(0.83_0.13_88_/_35%)]"
+            className="mx-auto h-72 w-72 object-contain drop-shadow-[0_0_45px_oklch(0.77_0.16_60_/_35%)]"
           />
           <h1 className="mt-2 font-serif text-5xl leading-tight text-primary md:text-7xl">
-            The Sudharshan <span className="text-primary">Summit</span>
+            The Sudharshan <span className="text-green">Summit</span>
           </h1>
           <p className="mt-4 text-3xl italic text-muted-foreground md:text-4xl">Preserving Diplomacy</p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">

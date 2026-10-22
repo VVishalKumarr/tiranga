@@ -12,22 +12,37 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
+  --color-saffron: var(--saffron);
+  --color-green: var(--green);
   --radius-lg: var(--radius);
 }
 
+/* Tricolour theme: saffron, white and green on Ashoka Chakra navy */
 :root {
   --radius: 0.625rem;
-  --background: #1c0032;
-  --foreground: #fcebae;
-  --card: #290b42;
-  --card-foreground: #fcebae;
-  --primary: #eac25a;
-  --primary-foreground: #1c0032;
-  --secondary: #33164d;
-  --secondary-foreground: #fcebae;
-  --muted: #2c1543;
-  --muted-foreground: #dacea2;
-  --border: #eac25a4d;
+  --saffron: #ff9933;
+  --green: #4cb944;
+  --background: #061433;
+  --foreground: #ffffff;
+  --card: #0c2152;
+  --card-foreground: #ffffff;
+  --primary: var(--saffron);
+  --primary-foreground: #061433;
+  --secondary: #0f4d2c;
+  --secondary-foreground: #ffffff;
+  --muted: #102a5c;
+  --muted-foreground: #d3ddef;
+  --border: #ff99334d;
+}
+
+.tricolour-stripe {
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    var(--saffron) 0 33.33%,
+    #ffffff 33.33% 66.66%,
+    var(--green) 66.66% 100%
+  );
 }
 
 @layer base {

@@ -23,7 +23,7 @@ export default function TeamSudharshan() {
       <p className="mb-8 text-center text-xl text-muted-foreground md:text-2xl">
         Apply to be a part of the family behind The Sudharshan Summit.
       </p>
-      <div className="rounded-2xl border border-primary/25 bg-secondary/40 p-8 text-center shadow-[0_0_40px_-15px_oklch(0.83_0.13_88_/_40%)]">
+      <div className="rounded-2xl border border-primary/25 bg-secondary/40 p-8 text-center shadow-[0_0_40px_-15px_oklch(0.77_0.16_60_/_40%)]">
         <p className="leading-relaxed text-foreground/85">
           We're looking for passionate individuals to help us build what comes next. If diplomacy, dialogue and
           the craft of bringing people together speak to you — this is your invitation.

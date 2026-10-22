@@ -87,7 +87,7 @@ export default function CareerForm() {
   return (
     <form
       onSubmit={onSubmit}
-      className="space-y-6 rounded-2xl border border-primary/25 bg-card/60 p-6 shadow-[0_0_40px_-15px_oklch(0.83_0.13_88_/_40%)] md:p-8"
+      className="space-y-6 rounded-2xl border border-primary/25 bg-card/60 p-6 shadow-[0_0_40px_-15px_oklch(0.77_0.16_60_/_40%)] md:p-8"
     >
       <p className="text-xs text-muted-foreground">
         <span className="text-primary">*</span> Required

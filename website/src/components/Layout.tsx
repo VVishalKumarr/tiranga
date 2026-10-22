@@ -31,10 +31,11 @@ export default function Layout() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-40 border-b border-primary/20 bg-background/85 backdrop-blur">
+        <div className="tricolour-stripe" />
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
           <Link to="/" className="flex shrink-0 items-center gap-2.5">
             <img
-              src="/images/sudharshan-logo.png"
+              src="/images/tiranga-logo.png"
               alt="The Sudharshan Summit emblem"
               className="h-16 w-16 object-contain"
             />
@@ -84,7 +85,8 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      <footer className="mt-24 border-t border-primary/20 bg-secondary/40">
+      <footer className="mt-24 bg-secondary/40">
+        <div className="tricolour-stripe" />
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-3">
           <div>
             <div className="font-serif text-xl text-primary">The Sudharshan Summit</div>

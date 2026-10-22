@@ -50,7 +50,7 @@ export default function FoundersMessage() {
           <p>That is why our vision has always been clear.</p>
           <p className="font-serif text-2xl text-primary">Preserving Diplomacy.</p>
         </div>
-        <div className="order-1 mx-auto w-full max-w-xs overflow-hidden rounded-2xl border border-primary/25 shadow-[0_0_40px_-15px_oklch(0.83_0.13_88_/_40%)] md:order-2">
+        <div className="order-1 mx-auto w-full max-w-xs overflow-hidden rounded-2xl border border-primary/25 shadow-[0_0_40px_-15px_oklch(0.77_0.16_60_/_40%)] md:order-2">
           <img
             src="/images/ahaan-mahajan.jpg"
             alt="Mr. Ahaan Mahajan, Founder of The Sudharshan Summit"

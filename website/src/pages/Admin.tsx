@@ -89,9 +89,9 @@ function Login({ onSuccess }: { onSuccess: () => void }) {
     <div className="flex min-h-screen items-center justify-center px-4">
       <form
         onSubmit={submit}
-        className="w-full max-w-sm rounded-2xl border border-primary/25 bg-card/60 p-8 text-center shadow-[0_0_40px_-15px_oklch(0.83_0.13_88_/_40%)]"
+        className="w-full max-w-sm rounded-2xl border border-primary/25 bg-card/60 p-8 text-center shadow-[0_0_40px_-15px_oklch(0.77_0.16_60_/_40%)]"
       >
-        <img src="/images/sudharshan-logo.png" alt="" className="mx-auto h-20 w-20 object-contain" />
+        <img src="/images/tiranga-logo.png" alt="" className="mx-auto h-20 w-20 object-contain" />
         <h1 className="mt-3 font-serif text-2xl text-primary">Admin Login</h1>
         <p className="mt-1 text-sm text-muted-foreground">Career Counselling responses</p>
         <label htmlFor="password" className="sr-only">
@@ -202,7 +202,7 @@ function Dashboard({ onLogout }: { onLogout: () => void }) {
       <header className="sticky top-0 z-30 border-b border-primary/20 bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6">
           <div className="flex items-center gap-3">
-            <img src="/images/sudharshan-logo.png" alt="" className="h-10 w-10 object-contain" />
+            <img src="/images/tiranga-logo.png" alt="" className="h-10 w-10 object-contain" />
             <div className="leading-tight">
               <div className="font-serif text-lg text-primary">Admin Dashboard</div>
               <div className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
