@@ -3,21 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { InstagramIcon } from "../components/BrandIcons";
 import { usePageTitle } from "../usePageTitle";
 
-const highlights = [
-  {
-    title: "400+ Delegates",
-    text: "The largest conference hosted on July 11–12 2026 across India.",
-  },
-  {
-    title: "Youth-Led",
-    text: "Organised, led and shaped by students for students. By the youth, for the youth.",
-  },
-  {
-    title: "Hosted at Hansraj College",
-    text: "Held at Hansraj College, University of Delhi — North Campus.",
-  },
-];
-
 const explore = [
   {
     to: "/alumni",
@@ -43,7 +28,7 @@ const socialClass =
   "group inline-flex items-center justify-center gap-2.5 rounded-full border border-primary px-6 py-2.5 text-sm font-medium tracking-wide text-primary transition hover:bg-primary/10";
 
 export default function Home() {
-  usePageTitle("Tiranga — Preserving Diplomacy | 11–12 July 2026");
+  usePageTitle("Tiranga — Preserving Diplomacy");
 
   return (
     <div>
@@ -79,15 +64,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
-
-      <section className="mx-auto grid max-w-6xl gap-6 px-6 pb-16 md:grid-cols-3">
-        {highlights.map((h) => (
-          <div key={h.title} className="rounded-2xl border border-primary/20 bg-card/60 p-6 backdrop-blur">
-            <h3 className="font-serif text-2xl text-primary">{h.title}</h3>
-            <p className="mt-2 text-sm text-muted-foreground">{h.text}</p>
-          </div>
-        ))}
       </section>
 
       <section className="mx-auto max-w-6xl px-6">

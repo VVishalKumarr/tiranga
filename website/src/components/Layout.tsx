@@ -86,9 +86,7 @@ export default function Layout() {
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-3">
           <div>
             <div className="font-serif text-xl text-primary">Tiranga</div>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Hansraj College, University of Delhi. 11th &amp; 12th of July 2026.
-            </p>
+            <p className="mt-2 text-sm text-muted-foreground">Preserving Diplomacy.</p>
           </div>
           <div>
             <h4 className="mb-3 text-sm uppercase tracking-widest text-primary">Explore</h4>
