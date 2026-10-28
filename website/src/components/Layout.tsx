@@ -5,7 +5,6 @@ import { InstagramIcon } from "./BrandIcons";
 
 export const NAV_LINKS = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About Us" },
   { to: "/alumni", label: "Alumni" },
   { to: "/the-tiranga", label: "The Tiranga" },
   { to: "/career-counselling", label: "Career Counselling" },
@@ -35,12 +34,7 @@ export default function Layout() {
               alt="Tiranga logo"
               className="h-16 w-16 object-contain"
             />
-            <div className="leading-tight">
-              <div className="font-serif text-lg text-primary">Tiranga</div>
-              <div className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                Preserving Diplomacy
-              </div>
-            </div>
+            <div className="font-serif text-lg leading-tight text-primary">Tiranga</div>
           </Link>
           <nav className="hidden flex-wrap justify-end gap-x-5 gap-y-1 text-sm xl:flex">
             {NAV_LINKS.map((l) => (
@@ -86,7 +80,6 @@ export default function Layout() {
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-3">
           <div>
             <div className="font-serif text-xl text-primary">Tiranga</div>
-            <p className="mt-2 text-sm text-muted-foreground">Preserving Diplomacy.</p>
           </div>
           <div>
             <h4 className="mb-3 text-sm uppercase tracking-widest text-primary">Explore</h4>
@@ -94,7 +87,7 @@ export default function Layout() {
               {NAV_LINKS.slice(1).map((l) => (
                 <li key={l.to}>
                   <Link to={l.to} className="hover:text-primary">
-                    {l.label === "About Us" ? "About" : l.label}
+                    {l.label}
                   </Link>
                 </li>
               ))}

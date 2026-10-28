@@ -28,7 +28,7 @@ const socialClass =
   "group inline-flex items-center justify-center gap-2.5 rounded-full border border-primary px-6 py-2.5 text-sm font-medium tracking-wide text-primary transition hover:bg-primary/10";
 
 export default function Home() {
-  usePageTitle("Tiranga — Preserving Diplomacy");
+  usePageTitle("Tiranga");
 
   return (
     <div>
@@ -43,15 +43,6 @@ export default function Home() {
           <h1 className="mt-2 font-serif text-5xl leading-tight text-primary md:text-7xl">
             Tir<span className="text-foreground">an</span><span className="text-green">ga</span>
           </h1>
-          <p className="mt-4 text-3xl italic text-muted-foreground md:text-4xl">Preserving Diplomacy</p>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Link
-              to="/about"
-              className="rounded-full bg-primary px-9 py-4 text-base font-medium text-primary-foreground transition hover:opacity-90 md:text-lg"
-            >
-              About Us
-            </Link>
-          </div>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href="https://www.instagram.com/tirangaorg/"

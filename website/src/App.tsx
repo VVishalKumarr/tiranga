@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Alumni from "./pages/Alumni";
 import Tiranga from "./pages/Tiranga";
 import CareerCounselling from "./pages/CareerCounselling";
@@ -15,7 +14,6 @@ export default function App() {
       <Route path="admin" element={<Admin />} />
       <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
         <Route path="alumni" element={<Alumni />} />
         <Route path="the-tiranga" element={<Tiranga />} />
         <Route path="career-counselling" element={<CareerCounselling />} />
