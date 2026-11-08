@@ -3,10 +3,10 @@ import PageHeader from "../components/PageHeader";
 import { usePageTitle } from "../usePageTitle";
 
 const questions = [
-  "Not sure what to pursue?",
-  "Confused between different career options?",
-  "Want to understand opportunities beyond the usual paths?",
-  "Looking for guidance to make the right academic and career decisions?",
+  "Not sure what and where to pursue?",
+  "Confused about which colleges and universities to apply to?",
+  "Need help with applications, entrance exams and admissions?",
+  "Looking for guidance to get into the right college for you?",
 ];
 
 export default function CareerCounselling() {
@@ -16,19 +16,20 @@ export default function CareerCounselling() {
     <div className="mx-auto max-w-3xl px-6 py-16">
       <PageHeader
         eyebrow="Your Career. Your Future. Your Choice."
-        title="Career Counselling Session"
+        title="Career & College Counselling for High School Students"
         className="mb-10"
       />
 
       <div className="space-y-4 leading-relaxed text-foreground/85">
         <p>
-          <span className="text-primary">The Tiranga Organisation</span> is organising a Career Counselling
-          Session for students who are looking for clarity about their future, exploring different career paths,
-          or simply unsure about what comes next.
+          <span className="text-primary">The Tiranga Organisation</span> organises Career and College Counselling
+          Sessions for high school students who want to know where to go after school — which colleges,
+          universities and programmes are the right fit, and how to get in.
         </p>
         <p>
-          From choosing the right course and understanding career opportunities to identifying your interests and
-          making informed decisions — this session is designed to help you navigate the many choices ahead.
+          From shortlisting colleges and understanding admission requirements to preparing applications and
+          planning for entrance exams — our sessions are designed to help you secure a place at the college that is
+          right for you.
         </p>
       </div>
 
@@ -42,7 +43,7 @@ export default function CareerCounselling() {
       </ul>
 
       <p className="mt-8 text-center font-serif text-xl italic text-primary">
-        Because choosing a career starts with understanding your options.
+        Because the right future starts with the right college.
       </p>
 
       <section id="register" className="mt-12">
