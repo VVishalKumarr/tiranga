@@ -1,5 +1,4 @@
-import { Mail } from "lucide-react";
-import { InstagramIcon } from "../components/BrandIcons";
+import { Mail, Phone } from "lucide-react";
 import PageHeader from "../components/PageHeader";
 import { usePageTitle } from "../usePageTitle";
 
@@ -20,11 +19,12 @@ export default function Contact() {
             <div className="break-all font-serif text-lg text-foreground">thetirangaorganisation@gmail.com</div>
           </div>
         </a>
-        <a href="https://instagram.com/tirangaorg" target="_blank" rel="noreferrer" className={linkCard}>
-          <InstagramIcon className="h-5 w-5 shrink-0 text-primary" />
+        <a href="tel:+917830099099" className={linkCard}>
+          <Phone className="h-5 w-5 shrink-0 text-primary" />
           <div>
-            <div className="text-xs uppercase tracking-widest text-muted-foreground">Instagram</div>
-            <div className="font-serif text-lg text-foreground">@tirangaorg</div>
+            <div className="text-xs uppercase tracking-widest text-muted-foreground">Phone</div>
+            <div className="font-serif text-lg text-foreground">+91 78300 99099</div>
+            <div className="text-sm text-muted-foreground">Samriddhi</div>
           </div>
         </a>
       </div>

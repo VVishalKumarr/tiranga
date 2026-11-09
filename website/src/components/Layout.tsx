@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
-import { Mail, Menu, X } from "lucide-react";
-import { InstagramIcon } from "./BrandIcons";
+import { Mail, Menu, Phone, X } from "lucide-react";
 
 export const NAV_LINKS = [
   { to: "/", label: "Home" },
@@ -103,9 +102,9 @@ export default function Layout() {
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <InstagramIcon className="h-4 w-4 shrink-0 text-primary" />
-                <a href="https://instagram.com/tirangaorg" className="hover:text-primary">
-                  @tirangaorg
+                <Phone className="h-4 w-4 shrink-0 text-primary" />
+                <a href="tel:+917830099099" className="hover:text-primary">
+                  +91 78300 99099 (Samriddhi)
                 </a>
               </li>
             </ul>

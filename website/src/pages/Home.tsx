@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
-import { InstagramIcon } from "../components/BrandIcons";
+import { ArrowRight, Phone } from "lucide-react";
 import { usePageTitle } from "../usePageTitle";
 
 const explore = [
@@ -44,14 +43,9 @@ export default function Home() {
             Tir<span className="text-foreground">an</span><span className="text-green">ga</span>
           </h1>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="https://www.instagram.com/tirangaorg/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={socialClass}
-            >
-              <InstagramIcon className="h-5 w-5" />
-              Instagram
+            <a href="tel:+917830099099" className={socialClass}>
+              <Phone className="h-5 w-5" />
+              Call Samriddhi: +91 78300 99099
             </a>
           </div>
         </div>
